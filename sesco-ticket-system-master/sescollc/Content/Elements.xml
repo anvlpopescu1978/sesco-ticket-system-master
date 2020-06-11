@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\corev15.css" Url="Content/corev15.css" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\bootstrap.css" Url="Content/Bootstrap/bootstrap.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\FontAwesome\fontawesome.css" Url="Content/FontAwesome/fontawesome.css" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\FontAwesome.otf" Url="Content/Fonts/FontAwesome.otf" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\fontawesome-webfont.eot" Url="Content/Fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\fontawesome-webfont.svg" Url="Content/Fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\fontawesome-webfont.ttf" Url="Content/Fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\fontawesome-webfont.woff" Url="Content/Fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"/>
+    <File Path="Content\Fonts\fontawesome-webfont.woff2" Url="Content/Fonts/fontawesome-webfont.woff2" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\hps-euro-w01-regular-eot.eot" Url="Content/Fonts/hps-euro-w01-regular-eot.eot" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\hps-euro-w01-regular-ttf.ttf" Url="Content/Fonts/hps-euro-w01-regular-ttf.ttf" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Content\Fonts\hps-euro-w01-regular-woff.woff" Url="Content/Fonts/hps-euro-w01-regular-woff.woff" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"/>
+    <File Path="Content\DataTable\datatables.css" Url="Content/DataTable/datatables.css" ReplaceContent="TRUE" />
+    <File Path="Content\DataTable\dataTables.responsive.css" Url="Content/DataTable/dataTables.responsive.css" ReplaceContent="TRUE" />
+    <File Path="Content\DataTable\fixedColumns.bootstrap.css" Url="Content/DataTable/fixedColumns.bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\App - Copy.css" Url="Content/App - Copy.css" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\bootstrap - Copy.css" Url="Content/Bootstrap/bootstrap - Copy.css" ReplaceContent="TRUE" />
+    <File Path="Content\DataTable\datatables.buttons.css" Url="Content/DataTable/datatables.buttons.css" ReplaceContent="TRUE" />
+    <File Path="Content\Bootstrap\bootstrap-multiselect.css" Url="Content/Bootstrap/bootstrap-multiselect.css" ReplaceContent="TRUE" />
+    <File Path="Content\DataTable\colReorder.dataTables.css" Url="Content/DataTable/colReorder.dataTables.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

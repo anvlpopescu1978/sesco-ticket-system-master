@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="BusinessFunctions" OnQuickLaunch="TRUE" TemplateType="110" Url="Lists/BusinessFunctions" Description="Business Functions">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="BusinessFunction">Trading</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Modeling</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Meteorology</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Compliance</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Finance</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Facilities</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Human Resources</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Technology</Field>
+        </Row>
+        <Row>
+          <Field Name="BusinessFunction">Operations</Field>
+        </Row>
+      </Rows>      
+    </Data>    
+  </ListInstance>
+</Elements>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="TicketSubTypes" OnQuickLaunch="TRUE" TemplateType="120" Url="Lists/TicketSubTypes" Description="My List Instance">
+   
+    
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="SubType">Software</Field>
+        </Row>
+        <Row>
+          <Field Name="SubType">Hardware</Field>
+        </Row>
+        <Row>
+          <Field Name="SubType">Data</Field>
+        </Row>
+        <Row>
+          <Field Name="SubType">Access/Security</Field>
+        </Row>
+        <Row>
+          <Field Name="SubType">Support Desk</Field>
+        </Row>
+        <Row>
+          <Field Name="SubType">Other</Field>
+        </Row>
+      </Rows>
+    </Data>  
+    
+    
+
+    
+  </ListInstance>
+</Elements>

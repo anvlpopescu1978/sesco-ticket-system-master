@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Default.js" Url="Pages/Default.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Requesters\CreateRequest.aspx" Url="Pages/Requesters/CreateRequest.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Requesters\CreateRequest.js" Url="Pages/Requesters/CreateRequest.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Requesters\MyRequests.aspx" Url="Pages/Requesters/MyRequests.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Requesters\MyRequests.js" Url="Pages/Requesters/MyRequests.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\Requests.aspx" Url="Pages/Administration/Requests.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\Requests.js" Url="Pages/Administration/Requests.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Users\Users.aspx" Url="Pages/Users/Users.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Users\Users.js" Url="Pages/Users/Users.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\EditRequest.js" Url="Pages/Common/EditRequest.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\EditRequest.aspx" Url="Pages/Common/EditRequest.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\Requests - Copy.js" Url="Pages/Administration/Requests - Copy.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Team\Requests.aspx" Url="Pages/Team/Requests.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Team\Requests.js" Url="Pages/Team/Requests.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Requesters\CreateRequest - Copy.js" Url="Pages/Requesters/CreateRequest - Copy.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\Requests - Copy.aspx" Url="Pages/Administration/Requests - Copy.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Users\Teams.aspx" Url="Pages/Users/Teams.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Users\Teams.js" Url="Pages/Users/Teams.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Requesters\Requests.aspx" Url="Pages/Requesters/Requests.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Requesters\Requests.js" Url="Pages/Requesters/Requests.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\Requests.aspx" Url="Pages/SuperAdmin/Requests.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" /> 
+    <File Path="Pages\SuperAdmin\Requests.js" Url="Pages/SuperAdmin/Requests.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" /> 
+    <File Path="Pages\Common\AccessDenied.aspx" Url="Pages/Common/AccessDenied.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\ISO.aspx" Url="Pages/Administration/ISO.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Administration\ISO.js" Url="Pages/Administration/ISO.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\ImpactedComponents.aspx" Url="Pages/SuperAdmin/ImpactedComponents.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\ImpactedComponents.js" Url="Pages/SuperAdmin/ImpactedComponents.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\ImpactedSystems.aspx" Url="Pages/SuperAdmin/ImpactedSystems.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\ImpactedSystems.js" Url="Pages/SuperAdmin/ImpactedSystems.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\BusinessFunctions.aspx" Url="Pages/SuperAdmin/BusinessFunctions.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\BusinessFunctions.js" Url="Pages/SuperAdmin/BusinessFunctions.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\ClosureReasons.aspx" Url="Pages/SuperAdmin/ClosureReasons.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\ClosureReasons.js" Url="Pages/SuperAdmin/ClosureReasons.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\BusinessFunctions - Copy.aspx" Url="Pages/SuperAdmin/BusinessFunctions - Copy.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\SuperAdmin\BusinessFunctions - Copy.js" Url="Pages/SuperAdmin/BusinessFunctions - Copy.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\Search.aspx" Url="Pages/Common/Search.aspx" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Pages\Common\Search.js" Url="Pages/Common/Search.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Pages\Common\EditRequest - Copy.js" Url="Pages/Common/EditRequest - Copy.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+  </Module> 
+</Elements> 

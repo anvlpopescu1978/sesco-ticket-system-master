@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RequestTypes" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/RequestTypes" Description="Request Types">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="RequestType">Incident</Field>
+          <Field Name="Ranking">10</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">New Capability/Enhancement</Field>
+          <Field Name="Ranking">20</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">Software</Field>
+          <Field Name="Ranking">20</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">Data/Analytics</Field>
+          <Field Name="Ranking">20</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">Data File</Field>
+          <Field Name="Ranking">30</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">Access/Security</Field>
+          <Field Name="Ranking">50</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">User Support</Field>
+          <Field Name="Ranking">70</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">Maintenance (IT Use Only)</Field>
+          <Field Name="Ranking">80</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">Environment (IT Use Only)</Field>
+          <Field Name="Ranking">90</Field>
+        </Row>
+        <Row>
+          <Field Name="RequestType">Device</Field>
+          <Field Name="Ranking">100</Field>
+        </Row>
+      </Rows>
+      
+    </Data>
+    
+  </ListInstance>
+</Elements>

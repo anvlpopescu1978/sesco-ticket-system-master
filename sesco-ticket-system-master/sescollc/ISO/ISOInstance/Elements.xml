@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ISO" OnQuickLaunch="TRUE" TemplateType="121" Url="Lists/ISO" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">CAISO</Field>
+          <Field Name="Ranking">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ERCOT</Field>
+          <Field Name="Ranking">20</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">MISO</Field>
+          <Field Name="Ranking">30</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">NY</Field>
+          <Field Name="Ranking">40</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">SPP</Field>
+          <Field Name="Ranking">50</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">PJM</Field>
+          <Field Name="Ranking">60</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">N/A</Field>
+          <Field Name="Ranking">70</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

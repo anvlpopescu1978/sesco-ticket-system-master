@@ -1,0 +1,383 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A80A967-DE26-43ED-AAB2-FD996791F342}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sescollc</RootNamespace>
+    <AssemblyName>sescollc</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{e211e573-2028-4e39-b6f6-2dcd151d2fb9}</AppFeaturePartId>
+    <WspPartId>{efa432a8-e039-450d-988b-2e229e994017}</WspPartId>
+    <WorkflowPartId>{7f2a6922-49fb-4605-9055-c8d92dfa4a1b}</WorkflowPartId>
+    <CspkgPartId>{ed779e6b-0fb0-41ec-a15c-4b8e8f585ce4}</CspkgPartId>
+    <SqlPackagePartId>{7b65a557-2a65-4dc2-9463-d46f279463bf}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\Desktop\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="BusinessFunctions\BusinessFunctionsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="BusinessFunctions\Elements.xml" />
+    <Content Include="BusinessFunctions\Schema.xml" />
+    <Content Include="ClosureReason\ClosureReasonInstance\Elements.xml" />
+    <Content Include="ClosureReason\Elements.xml" />
+    <Content Include="ClosureReason\Schema.xml" />
+    <Content Include="Comments\CommentsInstance\Elements.xml" />
+    <Content Include="Comments\Elements.xml" />
+    <Content Include="Comments\Schema.xml" />
+    <Content Include="Content\App - Copy.css" />
+    <Content Include="Content\App.css" />
+    <Content Include="Content\Bootstrap\bootstrap-multiselect.css" />
+    <Content Include="Content\Bootstrap\bootstrap - Copy.css" />
+    <Content Include="Content\Bootstrap\bootstrap.css" />
+    <Content Include="Content\corev15.css" />
+    <Content Include="Content\DataTable\colReorder.dataTables.css" />
+    <Content Include="Content\DataTable\datatables.buttons.css" />
+    <Content Include="Content\DataTable\datatables.css" />
+    <Content Include="Content\DataTable\dataTables.responsive.css" />
+    <Content Include="Content\DataTable\fixedColumns.bootstrap.css" />
+    <Content Include="Content\FontAwesome\fontawesome.css" />
+    <Content Include="Content\Fonts\fontawesome-webfont.svg" />
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature4\Feature4.Template.xml">
+      <DependentUpon>Feature4.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature5\Feature5.Template.xml">
+      <DependentUpon>Feature5.feature</DependentUpon>
+    </Content>
+    <Content Include="Images\darkdecorativebg.jpg" />
+    <Content Include="Images\sesco_logo.jpg" />
+    <Content Include="Images\sesco_logo.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="ImpactedComponents\Elements.xml" />
+    <Content Include="ImpactedComponents\ImpactedComponentsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ImpactedComponents\Schema.xml" />
+    <Content Include="ImpactedSystems\Elements.xml" />
+    <Content Include="ImpactedSystems\ImpactedSystemsInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ImpactedSystems\Schema.xml" />
+    <Content Include="ISO\Elements.xml" />
+    <Content Include="ISO\ISOInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ISO\Schema.xml" />
+    <Content Include="Pages\SuperAdmin\ResponsibleDept.js" />
+    <Content Include="Pages\SuperAdmin\ResponsibleDept.aspx" />
+    <Content Include="ResponsibleDept\Elements.xml" />
+    <Content Include="ResponsibleDept\ResponsibleDeptInstance\Elements.xml" />
+    <Content Include="ResponsibleDept\Schema.xml" />
+    <Content Include="MasterPages\Elements.xml" />
+    <Content Include="Notifications\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Notifications\NotificationsInstance\Elements.xml" />
+    <Content Include="Notifications\Schema.xml" />
+    <Content Include="Pages\Administration\ISO.aspx" />
+    <Content Include="Pages\Administration\ISO.js" />
+    <Content Include="Pages\Administration\Requests - Copy.aspx" />
+    <Content Include="Pages\Administration\Requests - Copy.js" />
+    <Content Include="Pages\Administration\Requests.aspx" />
+    <Content Include="Pages\Administration\Requests.js" />
+    <Content Include="Pages\Common\AccessDenied.aspx" />
+    <Content Include="Pages\Common\EditRequest - Copy.js" />
+    <Content Include="Pages\Common\Search.js" />
+    <Content Include="Pages\Common\Search.aspx" />
+    <Content Include="Pages\Common\EditRequest.aspx" />
+    <Content Include="Pages\Common\EditRequest.js" />
+    <Content Include="Pages\Default.aspx" />
+    <Content Include="Pages\Default.js" />
+    <Content Include="Pages\Requesters\CreateRequest - Copy.js" />
+    <Content Include="Pages\Requesters\MyRequests.js" />
+    <Content Include="Pages\Requesters\MyRequests.aspx" />
+    <Content Include="Pages\Requesters\CreateRequest.aspx" />
+    <Content Include="Pages\Requesters\CreateRequest.js" />
+    <Content Include="Pages\Requesters\Requests.aspx" />
+    <Content Include="Pages\Requesters\Requests.js" />
+    <Content Include="Pages\SuperAdmin\BusinessFunctions - Copy.aspx" />
+    <Content Include="Pages\SuperAdmin\BusinessFunctions - Copy.js" />
+    <Content Include="Pages\SuperAdmin\BusinessFunctions.aspx" />
+    <Content Include="Pages\SuperAdmin\BusinessFunctions.js" />
+    <Content Include="Pages\SuperAdmin\ClosureReasons.aspx" />
+    <Content Include="Pages\SuperAdmin\ClosureReasons.js" />
+    <Content Include="Pages\SuperAdmin\ImpactedSystems.aspx" />
+    <Content Include="Pages\SuperAdmin\ImpactedSystems.js" />
+    <Content Include="Pages\SuperAdmin\ImpactedComponents.aspx" />
+    <Content Include="Pages\SuperAdmin\ImpactedComponents.js" />
+    <Content Include="Pages\SuperAdmin\Requests.aspx" />
+    <Content Include="Pages\SuperAdmin\Requests.js" />
+    <Content Include="Pages\Team\Requests.aspx" />
+    <Content Include="Pages\Team\Requests.js" />
+    <Content Include="Pages\Users\Teams.aspx" />
+    <Content Include="Pages\Users\Teams.js" />
+    <Content Include="Pages\Users\Users.aspx" />
+    <Content Include="Pages\Users\Users.js" />
+    <Content Include="Priorities\Elements.xml" />
+    <Content Include="Priorities\PrioritiesInstance\Elements.xml" />
+    <Content Include="Priorities\Schema.xml" />
+    <Content Include="RequestTypes\Elements.xml" />
+    <Content Include="RequestTypes\RequestTypesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="RequestTypes\Schema.xml" />
+    <Content Include="RootCause\Elements.xml" />
+    <Content Include="RootCause\RootCauseInstance\Elements.xml" />
+    <Content Include="RootCause\Schema.xml" />
+    <Content Include="Scripts\App - Copy.js" />
+    <Content Include="Scripts\Framework\DataTable\colReorder.dataTables.js" />
+    <Content Include="Scripts\Framework\Bootstrap\bootstrap-multiselect.js" />
+    <Content Include="Scripts\Framework\Bootstrap\bootstrap.js" />
+    <Content Include="Scripts\Framework\Bootstrap\popper.js" />
+    <Content Include="Scripts\Framework\Controls\sharepoint.controls.js" />
+    <Content Include="Scripts\Framework\DataTable\buttons.colVis.js" />
+    <Content Include="Scripts\Framework\DataTable\buttons.flash.js" />
+    <Content Include="Scripts\Framework\DataTable\buttons.html5.js" />
+    <Content Include="Scripts\Framework\DataTable\buttons.print.js" />
+    <Content Include="Scripts\Framework\DataTable\dataTables.bootstrap.js" />
+    <Content Include="Scripts\Framework\DataTable\datatables.button.js" />
+    <Content Include="Scripts\Framework\DataTable\dataTables.fixedheaders.js" />
+    <Content Include="Scripts\Framework\DataTable\datatables.js" />
+    <Content Include="Scripts\Framework\DataTable\dataTables.responsive.js" />
+    <Content Include="Scripts\Framework\DataTable\jszip.js" />
+    <Content Include="Scripts\Framework\DataTable\pdfmake.js" />
+    <Content Include="Scripts\Framework\DataTable\vfs_fonts.js" />
+    <Content Include="Scripts\Framework\Data\sharepoint.data modern.js" />
+    <Content Include="Scripts\Framework\Data\sharepoint.data.js" />
+    <Content Include="Scripts\Framework\Data\sharepoint.lists - Copy.js" />
+    <Content Include="Scripts\Framework\Data\sharepoint.lists.js" />
+    <Content Include="Scripts\Framework\Dialog\sharepoint.dialog.js" />
+    <Content Include="Scripts\Framework\jQuery\jquery.js" />
+    <Content Include="Scripts\Framework\Mail\sharepoint.mail.js" />
+    <Content Include="Scripts\Framework\Morris\morris.js" />
+    <Content Include="Scripts\Framework\Morris\morris.min.js" />
+    <Content Include="SupportTickets\Elements.xml" />
+    <Content Include="SupportTickets\Schema.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="SupportTickets\SupportTicketsInstance\Elements.xml" />
+    <Content Include="Teams\Elements.xml" />
+    <Content Include="Teams\Schema.xml" />
+    <Content Include="Teams\TeamsInstance\Elements.xml" />
+    <Content Include="TicketSubTypes\Elements.xml" />
+    <Content Include="TicketSubTypes\Schema.xml" />
+    <Content Include="TicketSubTypes\TicketSubTypesInstance\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Users\Elements.xml" />
+    <Content Include="Users\Schema.xml" />
+    <Content Include="Users\UsersInstance\Elements.xml" />
+    <None Include="BusinessFunctions\BusinessFunctionsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b50074f6-06ea-4caa-8f93-635667fae144}</SharePointProjectItemId>
+    </None>
+    <None Include="BusinessFunctions\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a0223ba3-109f-4398-ba35-a714ae4b3a3d}</SharePointProjectItemId>
+    </None>
+    <None Include="ClosureReason\ClosureReasonInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5f1cf132-0e66-461f-969c-bd5afa573298}</SharePointProjectItemId>
+    </None>
+    <None Include="ClosureReason\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{47348367-ab45-4d81-b0d7-78296abc55b9}</SharePointProjectItemId>
+    </None>
+    <None Include="Comments\CommentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5c136ec7-0a21-4936-b04e-cbb2d51f0670}</SharePointProjectItemId>
+    </None>
+    <None Include="Comments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{56e19da6-a5ee-4b14-b9f9-36bfc4c7a8ae}</SharePointProjectItemId>
+    </None>
+    <None Include="Content\Fonts\fontawesome-webfont.eot" />
+    <None Include="Content\Fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\Fonts\fontawesome-webfont.woff" />
+    <None Include="Content\Fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\Fonts\FontAwesome.otf" />
+    <None Include="Content\Fonts\hps-euro-w01-regular-eot.eot" />
+    <None Include="Content\Fonts\hps-euro-w01-regular-ttf.ttf" />
+    <None Include="Content\Fonts\hps-euro-w01-regular-woff.woff" />
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{d2d30226-9c53-49bc-aad0-76eeb290d2df}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{1bf90d33-c295-4ad1-b6c1-f8277945e0ba}</FeatureId>
+    </None>
+    <None Include="Features\Feature4\Feature4.feature">
+      <FeatureId>{5cdb0da6-9018-412b-ba81-bb09dac155e9}</FeatureId>
+    </None>
+    <None Include="Features\Feature5\Feature5.feature">
+      <FeatureId>{f98d840f-ee30-4977-958b-4a2ac5ee8bae}</FeatureId>
+    </None>
+    <None Include="ImpactedComponents\ImpactedComponentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f9cba906-1e94-4408-9219-1d5d0b26496a}</SharePointProjectItemId>
+    </None>
+    <None Include="ImpactedComponents\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e2609400-d999-49bb-9eb7-059a3fc4ba66}</SharePointProjectItemId>
+    </None>
+    <None Include="ImpactedSystems\ImpactedSystemsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{891fe8b3-3847-4093-89ac-a7d0fd00fb69}</SharePointProjectItemId>
+    </None>
+    <None Include="ImpactedSystems\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef30f1a1-230a-4e29-a692-c83cd2a60389}</SharePointProjectItemId>
+    </None>
+    <None Include="ISO\ISOInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e4d9ef10-6769-48c9-967a-311e28543430}</SharePointProjectItemId>
+    </None>
+    <None Include="ISO\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6195a916-aa3c-4eb3-88ea-ca6423a28120}</SharePointProjectItemId>
+    </None>
+    <None Include="ResponsibleDept\ResponsibleDeptInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{df73f5ff-6682-4149-97ff-d8b81cc58c4d}</SharePointProjectItemId>
+    </None>
+    <None Include="ResponsibleDept\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{965af187-569c-4303-95ca-fa292b71e14b}</SharePointProjectItemId>
+    </None>
+    <None Include="MasterPages\sesco.master" />
+    <None Include="MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{01b1ec76-a559-49fb-8843-c139dad6c1bc}</SharePointProjectItemId>
+    </None>
+    <None Include="Notifications\NotificationsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2bc289c9-adc3-448d-b374-58f3a05e0c8f}</SharePointProjectItemId>
+    </None>
+    <None Include="Notifications\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c346a1bf-965b-4b3f-bf8f-2d4cc72d5c92}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7addde54-30ef-43a2-8985-5f5878789f49}</SharePointProjectItemId>
+    </None>
+    <Content Include="Pages\Elements.xml" />
+    <None Include="RootCause\RootCauseInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2f8c85bc-ff4f-499d-b85b-695f720ddfef}</SharePointProjectItemId>
+    </None>
+    <None Include="RootCause\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b1a66208-be40-40dc-b667-484dff80b1ed}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\Framework\Morris\morris.min.js.map" />
+    <None Include="SupportTickets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3019edae-7597-4d2c-a779-c0bc10bac255}</SharePointProjectItemId>
+    </None>
+    <None Include="SupportTickets\SupportTicketsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e679f0b3-8201-47bd-86db-7ada339cc268}</SharePointProjectItemId>
+    </None>
+    <None Include="Teams\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d231a073-07ba-4879-aa86-dae58954e7c8}</SharePointProjectItemId>
+    </None>
+    <None Include="Teams\TeamsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e5c21a8c-c43b-477a-9ebd-8da867012380}</SharePointProjectItemId>
+    </None>
+    <None Include="TicketSubTypes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bb7dd534-65a0-4998-a7f2-d84c210fcd07}</SharePointProjectItemId>
+    </None>
+    <None Include="TicketSubTypes\TicketSubTypesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{222b6461-aa9c-4dd8-8e94-829356c081a0}</SharePointProjectItemId>
+    </None>
+    <None Include="Users\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dd005d5e-6ad2-4d6c-82f9-6d0d5d1dc365}</SharePointProjectItemId>
+    </None>
+    <None Include="Users\UsersInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e76f6dbd-4eb5-43a7-ae6b-2f5e961ab733}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Priorities\PrioritiesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ffb9175e-3d22-480b-b07c-d05f1e06f548}</SharePointProjectItemId>
+    </None>
+    <None Include="Priorities\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9e9650db-1555-45b5-a261-02e7198c4277}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestTypes\RequestTypesInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b322056b-7c3e-43b6-a60e-1b88117a26d7}</SharePointProjectItemId>
+    </None>
+    <None Include="RequestTypes\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63c32bd6-4dc6-4af1-a0a3-057c89af7420}</SharePointProjectItemId>
+    </None>
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7b65a557-2a65-4dc2-9463-d46f279463bf}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1d9565a9-9ab3-48ad-ad90-8c0ccae19f5b}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png" />
+    <Content Include="Images\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{96720fe3-066c-461a-873a-c432f27a91be}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{d730585f-064e-4bcb-8f07-772f6cf5b102}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{b1ce9088-6063-4d68-9394-068b6d1e47f8}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\Framework\Chart\" />
+    <Folder Include="Scripts\Framework\Tooltipster\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

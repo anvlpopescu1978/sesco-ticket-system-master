@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="SupportTickets" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/SupportTickets" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" VersioningEnabled="TRUE" EnableMinorVersions="FALSE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010069f0ad1986c3494a847b82205882e0c4" Name="ListFieldsContentType"><FieldRefs>
+    <FieldRef ID="{493321e7-138d-4f27-889c-530720c38938}" Name="TicketType" /><FieldRef ID="{05375933-8a2f-419f-8538-79b88a0c9b2b}" Name="TicketPriority" /><FieldRef ID="{2d354402-18e8-44b8-b4df-763b94259b55}" Name="TicketDescription" /><FieldRef ID="{52578FC3-1F01-4f4d-B016-94CCBCF428CF}" Name="_Comments" /><FieldRef ID="{41e9075c-21c3-4339-a547-1c161f63ff26}" Name="TicketTitke" /><FieldRef ID="{58a2ca63-dd0a-4462-97f6-d3cee346b3e5}" Name="SupportAgent" /><FieldRef ID="{971aef43-4ee0-4ed1-be6f-80bb48bbed61}" Name="TicketStatus" /><FieldRef ID="{d657b759-0e82-4ed7-bd9e-94fc03967130}" Name="BusinessFunction" /><FieldRef ID="{fd12cbcc-6d67-4469-99bc-5e3ea5ed53cf}" Name="ImpactedSystems" /><FieldRef ID="{431f54c9-d516-4dfb-a607-fc82c7bda36c}" Name="ImpactedComponents" /><FieldRef ID="{66ffd503-626e-4ab7-a3b5-8e2bb07ea66f}" Name="EnhacementRequired" /><FieldRef ID="{dbb4135c-ba69-415c-99a1-c59baec5d3b9}" Name="TicketSubType" /><FieldRef ID="{72f57ad2-dc7e-4729-9126-dcbc95917062}" Name="ImpactedISO" /><FieldRef ID="{81f20bdf-aa79-4a41-b807-59964f19cc92}" Name="DueDate1" /><FieldRef ID="{46107d93-27f7-4ad9-bbf3-efdd9c1d8b04}" Name="Submtter" /><FieldRef ID="{51a2fbab-4afd-4809-80b0-b09a826dbc27}" Name="CodeReview" /><FieldRef ID="{ed671e23-0870-4151-bb54-30a81c2368e9}" Name="DBReview" /><FieldRef ID="{c610d4f4-d885-4724-b087-8846cb76aa4e}" Name="ArchictectureReview" /><FieldRef ID="{bfc9cd65-61e1-4d55-bf36-ee92a8ed49bb}" Name="UserTesting" /><FieldRef ID="{73de313c-7f11-4fe0-bec4-d9cac905bcbb}" Name="ImpactScore" /><FieldRef ID="{1f33f8c4-e470-4159-9ddb-63b7cbcc37bd}" Name="UrgencyScore" /><FieldRef ID="{ca7282ab-4bbb-47cf-923d-398ccf293132}" Name="ROIScore" /><FieldRef ID="{3b897261-0518-4ed9-98a6-0012fb62127e}" Name="MandateScore" /><FieldRef ID="{e9de62de-70e6-42f7-9a11-181f9691bc75}" Name="TotalScore" /><FieldRef ID="{da3856a1-a836-4a36-a2de-e46eff9347a7}" Name="Team" /><FieldRef ID="{ac7fcd25-272e-4ec3-aad0-b4412fe3e072}" Name="ClosureReason" /><FieldRef ID="{fd723084-08a7-48ea-9802-b685b1ac8f63}" Name="RootCause" /><FieldRef ID="{d7eb275a-5b83-40d5-a6b0-c3171401886f}" Name="DevPriority" /><FieldRef ID="{d9127ca9-e2b9-48cb-8c52-c16e7a88f65d}" Name="StartWorkingDate" /><FieldRef ID="{728577b8-88a8-4f05-a4a3-97575c9dfcb7}" Name="CompletedDate" /><FieldRef ID="{3376004f-e9e3-4def-b08d-b8141db7cbb9}" Name="InProcessDate" /><FieldRef ID="{cac66d75-ca57-4740-9cc7-f1c8f9eeb2f6}" Name="ClosedDate" /><FieldRef ID="{2e9e5164-bf22-4bc4-a999-2d0584d439f9}" Name="AcknowledgedDate" /><FieldRef ID="{db0c4ac8-74bf-4e9a-bc53-6e90cebdd8d6}" Name="PriortizationDate" /><FieldRef ID="{9ada624d-c0dd-4ee1-8bbe-9b4cb6ba87b9}" Name="PlannedDate" /><FieldRef ID="{09801efe-8387-4e88-9617-9b4633638d6d}" Name="DesignDate" /><FieldRef ID="{ef9188da-eed2-42ba-8df9-df1f5380da08}" Name="DevelopmentDate" /><FieldRef ID="{ef70d1a3-9222-46dd-bf5a-7a85b347ee76}" Name="TestDate" /><FieldRef ID="{d3cafd14-f143-48ed-bc73-57ec3e75928e}" Name="Products" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    
+      <Field Name="TicketType" ID="{493321e7-138d-4f27-889c-530720c38938}" DisplayName="Ticket Type" Type="Text" /><Field Name="TicketPriority" ID="{05375933-8a2f-419f-8538-79b88a0c9b2b}" DisplayName="Ticket Priority" Type="Text" /><Field Name="TicketDescription" ID="{2d354402-18e8-44b8-b4df-763b94259b55}" DisplayName="Ticket Description" Type="Note" /><Field ID="{52578FC3-1F01-4f4d-B016-94CCBCF428CF}" Name="_Comments" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_Comments" Group="$Resources:core,Document_Columns;" Type="Note" DisplayName="Comments" Sortable="FALSE" Description="$Resources:core,_CommentsDesc;" Sealed="TRUE" UnlimitedLengthInDocumentLibrary="TRUE" AllowDeletion="TRUE" ShowInFileDlg="FALSE" DelayActivateTemplateBinding="GROUP,SPSPERS,SITEPAGEPUBLISHING" /><Field Name="TicketTitke" ID="{41e9075c-21c3-4339-a547-1c161f63ff26}" DisplayName="Ticket Title" Type="Text" Indexed="TRUE" /><Field Name="SupportAgent" ID="{58a2ca63-dd0a-4462-97f6-d3cee346b3e5}" DisplayName="Support Agent" Type="User" List="UserInfo" Indexed="TRUE" /><Field Name="TicketStatus" ID="{971aef43-4ee0-4ed1-be6f-80bb48bbed61}" DisplayName="Ticket Status" Type="Text" /><Field Name="BusinessFunction" ID="{d657b759-0e82-4ed7-bd9e-94fc03967130}" DisplayName="Business Function" Type="Text" FillInChoice="TRUE"><CHOICES>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    <CHOICE>Trading</CHOICE><CHOICE>Modeling</CHOICE><CHOICE>Meteorology</CHOICE><CHOICE>Compliance</CHOICE><CHOICE>Finance</CHOICE><CHOICE>Facilities</CHOICE><CHOICE>Human Resources</CHOICE><CHOICE>Technology</CHOICE><CHOICE>Operations</CHOICE></CHOICES></Field><Field Name="ImpactedSystems" ID="{fd12cbcc-6d67-4469-99bc-5e3ea5ed53cf}" DisplayName="Impacted Systems" Type="Note" RichText="FALSE" /><Field Name="ImpactedComponents" ID="{431f54c9-d516-4dfb-a607-fc82c7bda36c}" DisplayName="Impacted Components" Type="Note" RichText="FALSE" /><Field Name="EnhacementRequired" ID="{66ffd503-626e-4ab7-a3b5-8e2bb07ea66f}" DisplayName="Enhacement Required" Type="Text" MaxLength="10" /><Field Name="TicketSubType" ID="{dbb4135c-ba69-415c-99a1-c59baec5d3b9}" DisplayName="Ticket Sub Type" Type="Text" /><Field Name="ImpactedISO" ID="{72f57ad2-dc7e-4729-9126-dcbc95917062}" DisplayName="Impacted ISO" Type="Note" RichText="FALSE" /><Field Name="DueDate1" ID="{81f20bdf-aa79-4a41-b807-59964f19cc92}" DisplayName="Due Date" Type="DateTime" /><Field Name="Submtter" ID="{46107d93-27f7-4ad9-bbf3-efdd9c1d8b04}" DisplayName="Submitter" ShowField="EMail" Type="User" List="UserInfo" /><Field Name="CodeReview" ID="{51a2fbab-4afd-4809-80b0-b09a826dbc27}" DisplayName="Code Review" Type="Text" MaxLength="10" /><Field Name="DBReview" ID="{ed671e23-0870-4151-bb54-30a81c2368e9}" DisplayName="DB Review" Type="Text" MaxLength="10" /><Field Name="ArchictectureReview" ID="{c610d4f4-d885-4724-b087-8846cb76aa4e}" DisplayName="Archictecture Review" Type="Text" MaxLength="10" /><Field Name="UserTesting" ID="{bfc9cd65-61e1-4d55-bf36-ee92a8ed49bb}" DisplayName="User Testing" Type="Text" MaxLength="10" /><Field Name="ImpactScore" ID="{73de313c-7f11-4fe0-bec4-d9cac905bcbb}" DisplayName="Impact Score" Type="Text" /><Field Name="UrgencyScore" ID="{1f33f8c4-e470-4159-9ddb-63b7cbcc37bd}" DisplayName="Urgency Score" Type="Text" /><Field Name="ROIScore" ID="{ca7282ab-4bbb-47cf-923d-398ccf293132}" DisplayName="ROI Score" Type="Text" /><Field Name="MandateScore" ID="{3b897261-0518-4ed9-98a6-0012fb62127e}" DisplayName="Mandate Score" Type="Text" /><Field Name="TotalScore" ID="{e9de62de-70e6-42f7-9a11-181f9691bc75}" DisplayName="Total Score" Type="Number" Decimals="0" /><Field Name="Team" ID="{da3856a1-a836-4a36-a2de-e46eff9347a7}" DisplayName="Team" Type="Lookup" Indexed="TRUE" List="Lists/Teams" ShowField="Team" ShowInVersionHistory="TRUE" /><Field Name="ClosureReason" ID="{ac7fcd25-272e-4ec3-aad0-b4412fe3e072}" DisplayName="Closure Reason" Type="Text" /><Field Name="RootCause" ID="{fd723084-08a7-48ea-9802-b685b1ac8f63}" DisplayName="Root Cause" Type="Text" /><Field Name="DevPriority" ID="{d7eb275a-5b83-40d5-a6b0-c3171401886f}" DisplayName="Dev Priority" Type="Number" /><Field Name="StartWorkingDate" ID="{d9127ca9-e2b9-48cb-8c52-c16e7a88f65d}" DisplayName="Start Working Date" Type="DateTime" /><Field Name="CompletedDate" ID="{728577b8-88a8-4f05-a4a3-97575c9dfcb7}" DisplayName="Completed Date" Type="DateTime" /><Field Name="InProcessDate" ID="{3376004f-e9e3-4def-b08d-b8141db7cbb9}" DisplayName="In Process Date" Type="DateTime" /><Field Name="ClosedDate" ID="{cac66d75-ca57-4740-9cc7-f1c8f9eeb2f6}" DisplayName="Closed Date" Type="DateTime" /><Field Name="AcknowledgedDate" ID="{2e9e5164-bf22-4bc4-a999-2d0584d439f9}" DisplayName="Acknowledged Date" Type="DateTime" /><Field Name="PriortizationDate" ID="{db0c4ac8-74bf-4e9a-bc53-6e90cebdd8d6}" DisplayName="Priortization Date" Type="DateTime" /><Field Name="PlannedDate" ID="{9ada624d-c0dd-4ee1-8bbe-9b4cb6ba87b9}" DisplayName="Planned Date" Type="DateTime" /><Field Name="DesignDate" ID="{09801efe-8387-4e88-9617-9b4633638d6d}" DisplayName="Design Date" Type="DateTime" /><Field Name="DevelopmentDate" ID="{ef9188da-eed2-42ba-8df9-df1f5380da08}" DisplayName="Development Date" Type="DateTime" /><Field Name="TestDate" ID="{ef70d1a3-9222-46dd-bf5a-7a85b347ee76}" DisplayName="Test Date" Type="Text" /><Field Name="Products" ID="{d3cafd14-f143-48ed-bc73-57ec3e75928e}" DisplayName="Products" Type="MultiChoice" FillInChoice="FALSE"><CHOICES><CHOICE>Congestion</CHOICE><CHOICE>FINS</CHOICE><CHOICE>FTR</CHOICE><CHOICE>INC/DEC</CHOICE></CHOICES></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="TicketType" /><FieldRef Name="TicketPriority" /><FieldRef Name="TicketDescription" /><FieldRef Name="_Comments" /><FieldRef Name="TicketTitke" /><FieldRef Name="SupportAgent" /><FieldRef Name="TicketStatus" /><FieldRef Name="BusinessFunction" /><FieldRef Name="ImpactedSystems" /><FieldRef Name="ImpactedComponents" /><FieldRef Name="EnhacementRequired" /><FieldRef Name="TicketSubType" /><FieldRef Name="ImpactedISO" /><FieldRef Name="DueDate1" /><FieldRef Name="Submtter" /><FieldRef Name="CodeReview" /><FieldRef Name="DBReview" /><FieldRef Name="ArchictectureReview" /><FieldRef Name="UserTesting" /><FieldRef Name="ImpactScore" /><FieldRef Name="UrgencyScore" /><FieldRef Name="ROIScore" /><FieldRef Name="MandateScore" /><FieldRef Name="TotalScore" /><FieldRef Name="Team" /><FieldRef Name="ClosureReason" /><FieldRef Name="RootCause" /><FieldRef Name="DevPriority" /><FieldRef Name="StartWorkingDate" /><FieldRef Name="CompletedDate" /><FieldRef Name="InProcessDate" /><FieldRef Name="ClosedDate" /><FieldRef Name="AcknowledgedDate" /><FieldRef Name="PriortizationDate" /><FieldRef Name="PlannedDate" /><FieldRef Name="DesignDate" /><FieldRef Name="DevelopmentDate" /><FieldRef Name="TestDate" /><FieldRef Name="Products" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

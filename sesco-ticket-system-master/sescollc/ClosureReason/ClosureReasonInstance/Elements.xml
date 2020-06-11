@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ClosureReason" OnQuickLaunch="TRUE" TemplateType="131" Url="Lists/ClosureReason" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Reason">Duplicate</Field>
+          <Field Name="RequestType">Incident;#;#Enhancement Request;#;#Service Request</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Not Reproducible</Field>
+          <Field Name="RequestType">Incident</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Resolved</Field>
+          <Field Name="RequestType">Incident</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Works As Designed</Field>
+          <Field Name="RequestType">Incident</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Enhancement</Field>
+          <Field Name="RequestType">Incident</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Environment</Field>
+          <Field Name="RequestType">Incident</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Implemented</Field>
+          <Field Name="RequestType">Enhancement Request</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Deferred</Field>
+          <Field Name="RequestType">Enhancement Request</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Obsolete</Field>
+          <Field Name="RequestType">Enhancement Request;#;#Service Request</Field>
+        </Row>
+        <Row>
+          <Field Name="Reason">Completed</Field>
+          <Field Name="RequestType">Service Request</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="RootCause" OnQuickLaunch="TRUE" TemplateType="150" Url="Lists/RootCause" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="RootCause">Coding Issue</Field>
+        </Row>
+        <Row>
+          <Field Name="RootCause">Data Issue</Field>
+        </Row>
+        <Row>
+          <Field Name="RootCause">ISO or Vendor Modification</Field>
+        </Row>
+        <Row>
+          <Field Name="RootCause">Job Failure</Field>
+        </Row>
+        <Row>
+          <Field Name="RootCause">Network/Connectivity</Field>
+        </Row>
+        <Row>
+          <Field Name="RootCause">Database Issue</Field>
+        </Row>
+        <Row>
+          <Field Name="RootCause">Credentials</Field>
+        </Row>
+      </Rows>
+    </Data>    
+  </ListInstance>
+</Elements>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\bootstrap.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\popper.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\jQuery\jquery.js" Target="Scripts\Framework\jQuery\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Data\sharepoint.data.js" Target="Scripts\Framework\Data\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Data\sharepoint.lists.js" Target="Scripts\Framework\Data\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Controls\sharepoint.controls.js" Target="Scripts\Framework\Controls\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Data\sharepoint.lists - Copy.js" Target="Scripts\Framework\Data\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Mail\sharepoint.mail.js" Target="Scripts\Framework\Mail\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Dialog\sharepoint.dialog.js" Target="Scripts\Framework\Dialog\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\datatables.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\dataTables.responsive.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\jszip.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Bootstrap\bootstrap-multiselect.js" Target="Scripts\Framework\Bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\datatables.button.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\buttons.html5.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\buttons.flash.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\pdfmake.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\vfs_fonts.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\dataTables.bootstrap.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\buttons.print.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\buttons.colVis.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\colReorder.dataTables.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="App - Copy.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Data\sharepoint.data modern.js" Target="Scripts\Framework\Data\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\DataTable\dataTables.fixedheaders.js" Target="Scripts\Framework\DataTable\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Morris\morris.js" Target="Scripts\Framework\Morris\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Morris\morris.min.js" Target="Scripts\Framework\Morris\" Type="ElementFile" />
+    <ProjectItemFile Source="Framework\Morris\morris.min.js.map" Target="Scripts\Framework\Morris\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

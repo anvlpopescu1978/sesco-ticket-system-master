@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\Bootstrap\bootstrap.js" Url="Scripts/Framework/Bootstrap/bootstrap.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\Bootstrap\popper.js" Url="Scripts/Framework/Bootstrap/popper.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published"  />
+    <File Path="Scripts\Framework\Data\sharepoint.data.js" Url="Scripts/Framework/Data/sharepoint.data.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Data\sharepoint.lists.js" Url="Scripts/Framework/Data/sharepoint.lists.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Controls\sharepoint.controls.js" Url="Scripts/Framework/Controls/sharepoint.controls.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Data\sharepoint.lists - Copy.js" Url="Scripts/Framework/Data/sharepoint.lists - Copy.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Mail\sharepoint.mail.js" Url="Scripts/Framework/Mail/sharepoint.mail.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\Dialog\sharepoint.dialog.js" Url="Scripts/Framework/Dialog/sharepoint.dialog.js" ReplaceContent="TRUE" Type="GhostableInLibrary" Level="Published" />
+    <File Path="Scripts\Framework\DataTable\datatables.js" Url="Scripts/Framework/DataTable/datatables.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\dataTables.responsive.js" Url="Scripts/Framework/DataTable/dataTables.responsive.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\jszip.js" Url="Scripts/Framework/DataTable/jszip.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Bootstrap\bootstrap-multiselect.js" Url="Scripts/Framework/Bootstrap/bootstrap-multiselect.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\datatables.button.js" Url="Scripts/Framework/DataTable/datatables.button.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\buttons.html5.js" Url="Scripts/Framework/DataTable/buttons.html5.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\buttons.flash.js" Url="Scripts/Framework/DataTable/buttons.flash.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\pdfmake.js" Url="Scripts/Framework/DataTable/pdfmake.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\vfs_fonts.js" Url="Scripts/Framework/DataTable/vfs_fonts.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\dataTables.bootstrap.js" Url="Scripts/Framework/DataTable/dataTables.bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\buttons.print.js" Url="Scripts/Framework/DataTable/buttons.print.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\buttons.colVis.js" Url="Scripts/Framework/DataTable/buttons.colVis.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\colReorder.dataTables.js" Url="Scripts/Framework/DataTable/colReorder.dataTables.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\App - Copy.js" Url="Scripts/App - Copy.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Data\sharepoint.data modern.js" Url="Scripts/Framework/Data/sharepoint.data modern.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\DataTable\dataTables.fixedheaders.js" Url="Scripts/Framework/DataTable/dataTables.fixedheaders.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Morris\morris.js" Url="Scripts/Framework/Morris/morris.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Morris\morris.min.js" Url="Scripts/Framework/Morris/morris.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\Morris\morris.min.js.map" Url="Scripts/Framework/Morris/morris.min.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\Framework\jQuery\jquery.js" Url="Scripts/Framework/jQuery/jquery.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

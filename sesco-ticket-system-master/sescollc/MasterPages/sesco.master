@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" %>
+<%@ Register TagPrefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<%@ Register TagPrefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
+<!DOCTYPE html>
+<html lang="en-us" runat="server"  xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head runat="server">
+	    <meta name="GENERATOR" content="Microsoft SharePoint"/>
+	    <meta name="progid" content="SharePoint.WebPartPage.Document"/>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+	    <meta http-equiv="Expires" content="0"/>
+        <title><asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server"/></title>
+       	<SharePoint:CssLink runat="server" Alternate="true" Version="15"/>
+        <SharePoint:ScriptLink language="javascript" name="core.js" Localizable="false" OnDemand="false" runat="server" LoadAfterUI="True"/>
+	    <SharePoint:ScriptLink language="javascript" name="sp.js" Localizable="false" OnDemand="false" runat="server" LoadAfterUI="True"/>
+        <SharePoint:ScriptLink language="javascript" name="SP.RequestExecutor.js" Localizable="false" OnDemand="false" runat="server" LoadAfterUI="True"/>
+        <SharePoint:ScriptLink name="clienttemplates.js" runat="server" LoadAfterUI="true" Localizable="false"  OnDemand="False" />
+        <SharePoint:ScriptLink name="clientforms.js" runat="server" LoadAfterUI="true" Localizable="false"  OnDemand="False" />
+        <SharePoint:ScriptLink name="clientpeoplepicker.js" runat="server" LoadAfterUI="true" Localizable="false"  OnDemand="True" />
+	    <asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server" />
+    </head>
+    <body class="h-100" onload="javascript:if (typeof(_spBodyOnLoadWrapper) != 'undefined') _spBodyOnLoadWrapper();">
+        <form runat="server" onsubmit="if (typeof(_spFormOnSubmitWrapper) != 'undefined') {return _spFormOnSubmitWrapper();} else {return true;}">
+             <asp:ScriptManager id="ScriptManager"  EnableCdn="false" runat="server" LoadScriptsBeforeUI="false" EnablePageMethods="false" EnablePartialRendering="true" EnableScriptGlobalization="false" EnableScriptLocalization="false">
+       	    <Scripts>
+                   <asp:ScriptReference Path="../../Scripts/Framework/jQuery/jquery.js" />
+                   <asp:ScriptReference Path="../../Scripts/Framework/Bootstrap/bootstrap.js" />
+                   <asp:ScriptReference Path="../../Scripts/Framework/Bootstrap/popper.js" />
+                   <asp:ScriptReference Path="../../Scripts/Framework/Morris/morris.min.js" />
+                   <asp:ScriptReference Path="../../Scripts/Framework/Data/sharepoint.lists.js" />
+                   <asp:ScriptReference Path="../../Scripts/Framework/Data/sharepoint.data.js" />
+                   <asp:ScriptReference Path="../../Scripts/Framework/Controls/sharepoint.controls.js" />
+                   <asp:ScriptReference Path="../../Scripts/App.js" />
+       	    </Scripts>
+            </asp:ScriptManager>
+
+        <div id="wrapper" class="h-100">
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+           
+            <div class="col-md-4">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+           </div>
+
+            <div class="col-md-4">
+                  <div class="input-group add-on" style="padding-top:10px">
+                     <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text" style="background-color:#ffffff" />
+                      <div class="input-group-btn">
+                         <button class="btn btn-default" type="button" onclick="javascript:Search()"><i class="fa fa-search"></i></button>
+                     </div>
+                    </div>
+            </div>
+
+            <div class="col-md-4">
+            <ul class="nav navbar-top-links navbar-right">
+                <li>
+                    <div style="padding-right: 15px; line-height:46px">
+                        <span id="welcome"></span>
+                        <span id="profilepicture"></span>
+                    </div>
+                </li>
+            </ul>
+            </div>
+            
+        <!-- Sidebar -->
+        <div class="navbar-default sidebar" role="navigation" style="margin-top:52px;">
+            <div class="sidebar-nav navbar-collapse">
+                 <ul class="nav" id="side-menu">
+                     <li style="padding-left:20px;box-sizing:border-box">
+                          <asp:Image runat="server" ImageUrl="../../Images/sesco_logo.jpg" CssClass="brand-logo-img" />
+                     </li>
+                    <li>
+                     <a href="javascript:NavigateToPage('/Pages/Default.aspx')"><i class="fa fa-home fa-fw"></i> Home</a>
+                    </li>
+                    <li>
+                        <a onclick="javascript:;" data-toggle="collapse" aria-expanded="false" data-parent="#side-menu" data-target="#requestersMenu"><i class="fa fa-support fa-fw"></i> Support <span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level collapse in" id="requestersMenu">
+                            <li>
+                                <a href="javascript:NavigateToPage('/Pages/Requesters/CreateRequest.aspx')">Create Ticket</a>
+                            </li>
+                             <li>
+                                <a href="javascript:NavigateToPage('/Pages/Requesters/MyRequests.aspx')">My Tickets</a>
+                            </li>
+                        </ul>
+                    </li>
+                     <li id="adminArea" style="display:none">
+                        <a onclick="javascript:NavigateToPage('/Pages/Administration/Requests.aspx')"><i class="fa fa-briefcase fa-fw"></i> Administration</a>
+                     </li>
+                      <li id="teamArea" style="display:none">
+                        <a onclick="javascript:NavigateToPage('/Pages/Team/Requests.aspx')"><i class="fa fa-tasks fa-fw"></i> Team</a>
+                     </li>
+                     <li id="superAdminArea" style="display:none">
+                         <a  data-toggle="collapse" id="superAdminCollapse" href="javascript:;" aria-expanded="false" data-parent="#side-menu" data-target="#superAdminMenu"><i class="fa fa-cogs fa-fw"></i> Super Admin <span class="fa arrow"></span></a>
+                         <ul class="nav nav-second-level collapse" id="superAdminMenu">
+                              <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/Users/Users.aspx')">Users</a>
+                              </li>
+                              <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/Users/Teams.aspx')">Teams</a>
+                              </li>
+                              <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/SuperAdmin/Requests.aspx')">Tickets</a>
+                              </li>
+                               <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/SuperAdmin/ImpactedSystems.aspx')">Impacted Systems</a>
+                              </li>
+                               <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/SuperAdmin/ImpactedComponents.aspx')">Impacted Components</a>
+                              </li>
+                               <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/Administration/ISO.aspx')">ISO</a>
+                              </li>
+                              <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/SuperAdmin/ClosureReasons.aspx')">Closure Reasons</a>
+                              </li>
+                               <li>
+                                <a onclick="javascript:NavigateToPage('/Pages/SuperAdmin/BusinessFunctions.aspx')">Business Functions</a>
+                              </li>
+                         </ul>
+
+                     </li>
+                 </ul>
+            </div>
+        </div>
+        <!-- Sidebar -->
+        </nav>   
+            <div id="page-wrapper" class="h-100">
+          	        <asp:ContentPlaceHolder runat="server" ID="ContentPlaceHolderMaim">
+	
+	                </asp:ContentPlaceHolder>
+            </div>   
+
+        </div>
+        </form>
+      </body>
+
+</html>
+
+

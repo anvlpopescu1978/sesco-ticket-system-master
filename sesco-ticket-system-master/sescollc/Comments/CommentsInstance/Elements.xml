@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Comments" OnQuickLaunch="TRUE" TemplateType="106" Url="Lists/Comments" Description="Comments History"></ListInstance>
+</Elements>

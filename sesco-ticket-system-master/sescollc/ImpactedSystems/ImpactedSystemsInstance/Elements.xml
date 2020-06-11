@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ImpactedSystems" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/ImpactedSystems" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ImpactedSystem">CoolApp</Field>
+          <Field Name="Ranking">10</Field>
+        </Row>
+        <Row>
+          <Field Name="ImpactedSystem">Device</Field>
+          <Field Name="Ranking">20</Field>
+        </Row>
+        <Row>
+          <Field Name="ImpactedSystem">QuickBooks</Field>
+          <Field Name="Ranking">30</Field>
+        </Row>
+        <Row>
+          <Field Name="ImpactedSystem">Tableau</Field>
+          <Field Name="Ranking">40</Field>
+        </Row>
+        <Row>
+          <Field Name="ImpactedSystem">Other</Field>
+          <Field Name="Ranking">50</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

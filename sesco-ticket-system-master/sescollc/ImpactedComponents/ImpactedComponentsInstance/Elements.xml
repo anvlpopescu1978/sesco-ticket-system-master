@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ImpactedComponents" OnQuickLaunch="TRUE" TemplateType="120" Url="Lists/ImpactedComponents" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">API</Field>
+          <Field Name="Ranking">10</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Database</Field>
+          <Field Name="Ranking">20</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">ISO</Field>
+          <Field Name="Ranking">30</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Jobs</Field>
+          <Field Name="Ranking">40</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Network</Field>
+          <Field Name="Ranking">50</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Performance</Field>
+          <Field Name="Ranking">60</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Server</Field>
+          <Field Name="Ranking">70</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Other</Field>
+          <Field Name="Ranking">80</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

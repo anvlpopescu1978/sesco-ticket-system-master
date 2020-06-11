@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Users" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Users" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x01006ffb425d07a54944b16710f8e7ba41e5" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{a469837e-0915-48a2-8440-8dc65430f51d}" Name="UserAccount" /><FieldRef ID="{6c8dda68-893f-49de-9da9-24b4cf89ba7c}" Name="UserName1" /><FieldRef ID="{1a9e73d4-ca3f-48e1-bbe2-a66c8f2640ef}" Name="UserEmail" /><FieldRef ID="{EEAEAAF1-4110-465b-905E-DF1073A7E0E6}" Name="Role" /><FieldRef ID="{13c107bc-fcb8-4684-844e-2bea577f350e}" Name="UserLogin" /><FieldRef ID="{e08e9571-b85f-430e-9da8-f1125620ba68}" Name="Team" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field Name="UserAccount" ID="{a469837e-0915-48a2-8440-8dc65430f51d}" DisplayName="User Account" Type="User" List="UserInfo" Required="TRUE" /><Field Name="UserName1" ID="{6c8dda68-893f-49de-9da9-24b4cf89ba7c}" DisplayName="User Name" Type="Text" Required="TRUE" /><Field Name="UserEmail" Indexed="TRUE" EnforceUniqueValues="TRUE" ID="{1a9e73d4-ca3f-48e1-bbe2-a66c8f2640ef}" DisplayName="User Email" Type="Text" Required="TRUE" /><Field ID="{EEAEAAF1-4110-465b-905E-DF1073A7E0E6}" Name="Role" StaticName="Role" SourceID="http://schemas.microsoft.com/sharepoint/v3" DisplayName="$Resources:core,Role_OL;" Group="$Resources:core,Issue_Task_Columns;" Type="Text" Sealed="TRUE" AllowDeletion="TRUE" Required="TRUE" /><Field Name="UserLogin" ID="{13c107bc-fcb8-4684-844e-2bea577f350e}" DisplayName="User Login" Type="Text" Required="TRUE" /><Field Name="Team" ID="{e08e9571-b85f-430e-9da8-f1125620ba68}" DisplayName="Team" Type="LookupMulti" Required="TRUE" List="Lists/Teams" ShowField="Team" Indexed="TRUE" Mult="TRUE" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="UserAccount" /><FieldRef Name="UserName1" /><FieldRef Name="UserEmail" /><FieldRef Name="Role" /><FieldRef Name="UserLogin" /><FieldRef Name="Team" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

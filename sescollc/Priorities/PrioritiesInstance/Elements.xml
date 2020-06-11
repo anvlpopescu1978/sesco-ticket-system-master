@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Priorities" OnQuickLaunch="TRUE" TemplateType="101" Url="Lists/Priorities" Description="Priorities LOV">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="TicketPriority">Low</Field>
+          <Field Name="Ranking">10</Field>
+        </Row>
+        <Row>
+          <Field Name="TicketPriority">Medium</Field>
+          <Field Name="Ranking">20</Field>
+        </Row>
+        <Row>
+          <Field Name="TicketPriority">High</Field>
+          <Field Name="Ranking">30</Field>
+        </Row>
+        <Row>
+          <Field Name="TicketPriority">Critical</Field>
+          <Field Name="Ranking">40</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

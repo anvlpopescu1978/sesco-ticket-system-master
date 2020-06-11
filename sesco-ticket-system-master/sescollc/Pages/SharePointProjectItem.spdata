@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
+    <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Default.js" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Requesters\CreateRequest.aspx" Target="Pages\Requesters\" Type="ElementFile" />
+    <ProjectItemFile Source="Requesters\CreateRequest.js" Target="Pages\Requesters\" Type="ElementFile" />
+    <ProjectItemFile Source="Requesters\MyRequests.aspx" Target="Pages\Requesters\" Type="ElementFile" />
+    <ProjectItemFile Source="Requesters\MyRequests.js" Target="Pages\Requesters\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\Requests.aspx" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\Requests.js" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\Users.aspx" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\Users.js" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\EditRequest.js" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\EditRequest.aspx" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\Requests - Copy.js" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Team\Requests.aspx" Target="Pages\Team\" Type="ElementFile" />
+    <ProjectItemFile Source="Team\Requests.js" Target="Pages\Team\" Type="ElementFile" />
+    <ProjectItemFile Source="Requesters\CreateRequest - Copy.js" Target="Pages\Requesters\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\Requests - Copy.aspx" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\Teams.aspx" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Users\Teams.js" Target="Pages\Users\" Type="ElementFile" />
+    <ProjectItemFile Source="Requesters\Requests.aspx" Target="Pages\Requesters\" Type="ElementFile" />
+    <ProjectItemFile Source="Requesters\Requests.js" Target="Pages\Requesters\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\Requests.aspx" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\Requests.js" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\AccessDenied.aspx" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\ISO.aspx" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="Administration\ISO.js" Target="Pages\Administration\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\ImpactedComponents.aspx" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\ImpactedComponents.js" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\ImpactedSystems.aspx" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\ImpactedSystems.js" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\BusinessFunctions.aspx" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\BusinessFunctions.js" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\ClosureReasons.aspx" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\ClosureReasons.js" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\BusinessFunctions - Copy.aspx" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="SuperAdmin\BusinessFunctions - Copy.js" Target="Pages\SuperAdmin\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\Search.aspx" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\Search.js" Target="Pages\Common\" Type="ElementFile" />
+    <ProjectItemFile Source="Common\EditRequest - Copy.js" Target="Pages\Common\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

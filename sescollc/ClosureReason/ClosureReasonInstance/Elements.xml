@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="ClosureReason" OnQuickLaunch="TRUE" TemplateType="131" Url="Lists/ClosureReason" Description="My List Instance">
+  </ListInstance>
+</Elements>
